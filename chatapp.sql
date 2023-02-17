@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `messages`
+-- Table structure for table `massages`
 --
 
-CREATE TABLE `messages` (
+CREATE TABLE `massages` (
   `msg_id` int(11) NOT NULL,
   `incoming_msg_id` int(255) NOT NULL,
   `outgoing_msg_id` int(255) NOT NULL,
@@ -56,9 +56,9 @@ CREATE TABLE `users` (
 --
 
 --
--- Indexes for table `messages`
+-- Indexes for table `massages`
 --
-ALTER TABLE `messages`
+ALTER TABLE `massages`
   ADD PRIMARY KEY (`msg_id`);
 
 --
@@ -72,9 +72,9 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `messages`
+-- AUTO_INCREMENT for table `massages`
 --
-ALTER TABLE `messages`
+ALTER TABLE `massages`
   MODIFY `msg_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
